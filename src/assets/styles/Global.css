@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+
+                
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    letter-spacing:2px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+@supports ((-webkit-hyphens: auto) or (hyphens: auto)) {
+  p {
+    text-align: justify;
+    -webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+    hyphens: auto;
+  }
+}
