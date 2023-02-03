@@ -13,7 +13,7 @@ export const Navbar = ({ isScrolling }) => {
           <img src={logoPear} />
         </div>
         <div className="navbar-menu">
-          <h5>PRODUCTOS</h5>
+          <h5>SERIE 300</h5>
           <h5>SERVICIOS</h5>
           <h5>CONTACTO</h5>
         </div>
