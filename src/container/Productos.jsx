@@ -8,7 +8,7 @@ export const Productos = () => {
     <section className="productos">
       <div className="about-text">
         <h3>
-          <b>MINI CARGADORA SERIE 300</b>
+          MINI CARGADORA <b>SERIE 300</b>
         </h3>
       </div>
       <div className="images">
@@ -21,6 +21,10 @@ export const Productos = () => {
        <div className="image-item">
        <img src={goCat3} />
        </div>
+      </div>
+      <div className="producto-options">
+        <button><h5>Caracteristicas</h5></button>
+        <button><h5>Consultar</h5></button>
       </div>
     </section>
   );

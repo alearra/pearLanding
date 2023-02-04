@@ -22,7 +22,9 @@ export const Landing = () => {
       <Navbar isScrolling={scrollHeight} />
       <Home />
       <Frase />
-      <Productos />
+      <section id="productos">
+        <Productos />
+      </section>
     </div>
   );
 };
